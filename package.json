@@ -1,0 +1,26 @@
+{
+	"name": "mystore-theme",
+	"displayName": "Mystore Themes",
+	"description": "VS Code Themes made for Mystore",
+	"version": "1.0.0",
+	"publisher": "vabrell",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/vabrell/mystore-theme-vscode"
+	},
+	"engines": {
+		"vscode": "^1.52.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Mystore Dark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/mystore-dark-color-theme.json"
+			}
+		]
+	}
+}
